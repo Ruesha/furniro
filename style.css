@@ -1,0 +1,122 @@
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+body{
+    background: none;
+    font-family: 'Roboto';
+}
+.container{
+    background-color: white;
+}
+.logo{
+   display: inline;
+   padding: .1rem;
+}
+.nav{
+    display:inline;
+    margin-left: 2rem;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+.rightfloat{
+    float: right;
+    display: flex;
+    margin-top: .5rem;
+    padding: .1rem;
+    gap: 2.5rem;
+}
+.head{
+    display: flex;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem 3rem;
+}
+.mainab{
+    border-radius: 1rem;
+    height:360px;
+    width:560px;
+    background: #FFF3E3;
+    padding: 3rem 0rem 0rem 4rem;
+    position: absolute;
+    top: 11rem;
+    left: 41rem;
+}
+.absolute{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333333;
+}
+.hehe{
+    font-size: 52px;
+    font-weight: 700;
+    color:#B88E2F;
+    display: block;
+}
+.hehe2{
+    font-size: 52px;
+    font-weight: 700;
+    color:#B88E2F;
+    display: block;
+}
+.smallhehe{
+    padding-top: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+
+}
+.main .linkcontain{
+    margin-top: 4rem;
+    color: white;
+}
+.main .link{
+    text-decoration: none;
+    color: white;
+    background: #B88E2F;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+.main{
+    position: relative;
+}
+.newbig{
+    text-align: center;
+    color: #333333;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 2rem;
+}
+.newsmall{
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+   padding-top: .5rem;
+}
+.imgh{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 2rem;
+}
+.under{
+    display: block;
+    padding-left: 8.5rem;
+    padding-top: 1.5rem;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+.pro{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+}
